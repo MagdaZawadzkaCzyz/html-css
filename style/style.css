@@ -1,12 +1,30 @@
 body {
-background-color: aquamarine;
-}
+    background-color: aquamarine;
+    }
 p {
 background-color: orange;
 }
 div {
-font-size: 20px;
+    font-size: 20px;
 }
 pre {
-color: blue;
+    color: blue;
 }
+
+img {
+    margin: auto;
+    display: block;
+    border-color: black;
+    border-windows: medium;
+    border-style: dashed;
+    border-radius: 25px;
+    }
+
+.lista {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    position: absolute;
+    top: 2px;
+    right: 450px;
+    visibility: visible;
+    }
